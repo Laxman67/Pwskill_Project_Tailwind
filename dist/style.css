@@ -639,6 +639,10 @@ video {
   height: 100vh;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .min-h-full {
   min-height: 100%;
 }
@@ -681,6 +685,20 @@ video {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
 }
 
 .cursor-pointer {
